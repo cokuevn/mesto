@@ -20,7 +20,7 @@
 @import url(../blocks/elements/__card/elements__card.css);
 @import url(../blocks/elements/__card-image/elements__card-image.css);
 @import url(../blocks/elements/__like-container/elements__like-container.css);
-@import url(../blocks/elements/__btn-add/elements__card-btn.css);
+@import url(../blocks/elements/__btn-like/elements__btn-like.css);
 @import url(../blocks/elements/__card-text/elements__card-text.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__container/popup__container.css);

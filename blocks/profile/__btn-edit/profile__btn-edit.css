@@ -5,20 +5,20 @@
     border: 1px solid #fff;
     align-self: center;
     margin-left: 18.5px;
-    background-color: black;
+    background: transparent url(../../../images/EditBtn.svg) center center / 10px no-repeat;
     transition: opacity .2s linear;
-  }
-  
-  .profile__btn-edit:hover {
+}
+
+.profile__btn-edit:hover {
     opacity: .6;
     cursor: pointer;
-  }
-  
-  @media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
     .profile__btn-edit {
-      width: 18px;
-      height: 18px;
-      margin-left: 10px;
-      background-size: 7.5px;
+        width: 18px;
+        height: 18px;
+        margin-left: 10px;
+        background-size: 7.5px;
     }
-  }
+}
