@@ -9,17 +9,17 @@
     font-size: 18px;
     line-height: 21px;
     transition: opacity 0.2s linear;
-  }
-  
-  .popup__btn-save:hover {
+}
+
+.popup__btn-save:hover {
     opacity: 0.8;
     cursor: pointer;
-  }
-  
-  @media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1280px) {
     .popup__btn-save {
-      min-height: 50px;
-      font-size: 18px;
-      line-height: 22px;
+        min-height: 50px;
+        font-size: 18px;
+        line-height: 22px;
     }
-  }
+}

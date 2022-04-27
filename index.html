@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="pages/index.css" />
     <title>Mesto</title>
 </head>
@@ -18,9 +17,7 @@
 
         <main class="content">
             <section class="profile">
-                <div class="profile__card">
-                    <img class="profile__avatar-foto" src="./images/Avatar.png" alt="аватар" />
-                </div>
+                    <img class="profile__avatar" src="./images/Avatar.png" alt="аватар" />
 
                 <div class="profile__info">
                     <h1 class="profile__title">Жак-Ив Кусто</h1>
@@ -38,61 +35,61 @@
             <section class="elements">
 
                 <ul class="elements__list">
-                    <li class="elements__card">
-                        <img class="elements__card-image" src="./images/карачаевск.png" alt="карачаевск" />
-                        <div class="elements__like-container">
-                            <p class="elements__card-text">Карачаевск</p>
-                            <button class="elements__btn-like" type="button" title="Лайк">
+                    <li class="element">
+                        <img class="element__image" src="./images/карачаевск.png" alt="карачаевск" />
+                        <div class="element__info">
+                            <p class="element__text">Карачаевск</p>
+                            <button class="element__btn-like" type="button" title="Лайк">
 
                             </button>
                         </div>
                     </li>
 
-                    <li class="elements__card">
-                        <img class="elements__card-image" src="./images/эльбрус.png" alt="Эльбрус" />
-                        <div class="elements__like-container">
-                            <p class="elements__card-text">Гора Эльбрус</p>
-                            <button class="elements__btn-like" type="button" title="Лайк">
+                    <li class="element">
+                        <img class="element__image" src="./images/эльбрус.png" alt="Эльбрус" />
+                        <div class="element__info">
+                            <p class="element__text">Гора Эльбрус</p>
+                            <button class="__btn-like" type="button" title="Лайк">
 
                             </button>
                         </div>
                     </li>
 
-                    <li class="elements__card">
-                        <img class="elements__card-image" src="./images/домбай.png" alt="Домбай" />
-                        <div class="elements__like-container">
-                            <p class="elements__card-text">Домбай</p>
-                            <button class="elements__btn-like" type="button" title="Лайк">
+                    <li class="element">
+                        <img class="element__image" src="./images/домбай.png" alt="Домбай" />
+                        <div class="element__info">
+                            <p class="element__text">Домбай</p>
+                            <button class="__btn-like" type="button" title="Лайк">
 
                             </button>
                         </div>
                     </li>
 
-                    <li class="elements__card">
-                        <img class="elements__card-image" src="./images/карачаевск.png" alt="карачаевск" />
-                        <div class="elements__like-container">
-                            <p class="elements__card-text">Карачаево-Ч...</p>
-                            <button class="elements__btn-like" type="button" title="Лайк">
+                    <li class="element">
+                        <img class="element__image" src="./images/карачаевск.png" alt="карачаевск" />
+                        <div class="element__info">
+                            <p class="element__text">Карачаево-Ч...</p>
+                            <button class="element__btn-like" type="button" title="Лайк">
 
                             </button>
                         </div>
                     </li>
 
-                    <li class="elements__card">
-                        <img class="elements__card-image" src="./images/эльбрус.png" alt="Эльбрус" />
-                        <div class="elements__like-container">
-                            <p class="elements__card-text">Гора Эльбрус</p>
-                            <button class="elements__btn-like" type="button" title="Лайк">
+                    <li class="element">
+                        <img class="element__image" src="./images/эльбрус.png" alt="Эльбрус" />
+                        <div class="element__info">
+                            <p class="element__text">Гора Эльбрус</p>
+                            <button class="element__btn-like" type="button" title="Лайк">
 
                             </button>
                         </div>
                     </li>
 
-                    <li class="elements__card">
-                        <img class="elements__card-image" src="./images/домбай.png" alt="" />
-                        <div class="elements__like-container">
-                            <p class="elements__card-text">Домбай</p>
-                            <button class="elements__btn-like" type="button" title="Лайк">
+                    <li class="element">
+                        <img class="element__image" src="./images/домбай.png" alt="" />
+                        <div class="element__info">
+                            <p class="element__text">Домбай</p>
+                            <button class="element__btn-like" type="button" title="Лайк">
 
                             </button>
                         </div>
@@ -124,10 +121,8 @@
                     <fieldset class="popup__fieldset">
                         <input class="popup__input popup__name" id="name" type="text" name="title" placeholder="Имя"
                             minlength="2" maxlength="40" required>
-                        <span class="popup__input-error name-error"></span>
                         <input class="popup__input popup__job" id="description" type="text" name="subtitle"
                             placeholder="О себе" minlength="2" maxlength="200" required>
-                        <span class="popup__input-error description-error"></span>
                     </fieldset>
                     <button class="popup__btn-save" type="submit" title="Сохранить">Сохранить</button>
                 </form>

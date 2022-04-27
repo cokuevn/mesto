@@ -1,7 +1,6 @@
-.elements__like-container{
+.element__info {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }

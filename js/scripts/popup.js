@@ -58,12 +58,3 @@ popupBtnSave.addEventListener('click', function() {
 
     togglePopup();
 });
-
-
-let logo = document.querySelector(".header__logo")
-logo.addEventListener('click', function() {
-console.log('исмаил')
-    togglePopup();
-});
-
-header__logo
